@@ -7,7 +7,7 @@ import numpy as np
 
 def drawCircle(event, x, y, flags, params):
     if event == cv2.EVENT_RBUTTONDOWN:
-        cv2.circle(img, center=(x, y), radius=50, color=(255, 0, 0), thickness=-1)
+        cv2.circle(img, center=(x, y), radius=60, color=(255, 0, 0), thickness=6)
 
     
 
